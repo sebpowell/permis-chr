@@ -1,0 +1,4 @@
+*.php
+wp-admin/
+wp-includes/
+wp-content/plugins

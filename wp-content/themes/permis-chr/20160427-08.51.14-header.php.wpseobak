@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="google-site-verification" content="KQ9JyJNcgg_PDCOnQ8ElZcd87BE4j8bjUTKxUx4hcTY" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77027207-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+ <title><?php wp_title(); ?>Obtenez votre permis d'exploitation</title>
+  <meta name="description" content="Permis CHR vous forme au permis d'exploitation. Des formations accessibles et de qualité dans la région Acquitaine." />
+  <meta charset="utf-8">
+   <script src="https://use.typekit.net/mhg4tzw.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">  
+ <!--  <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
+
+<?php wp_head(); ?>
+
+</head>
+<body>
+
+<header>
+	<a href="http://www.permis-chr.fr"><div class="logo"></div></a>
+	<nav>
+
+	<?php
+
+
+	$defaults = array (
+		'container'=> false,
+		'theme_location' => 'primary-menu',
+		'menu_class' => 'main-menu'
+		);
+
+	wp_nav_menu( $defaults);
+
+	?>
+
+<!--
+		<ul class="main-menu">
+			<li><a href="<?php bloginfo('url'); ?>">Le permis</a></li>
+			<li><a href="">Hygiène alimentaire</a></li>
+			<li><a href="">Nos plus</a></li>
+			<li><a href="">Les dates</a></li>
+			<li><a href="">Tarifs</a></li>
+			<li><a href="">Financements</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+-->
+	</nav>
+</header>
