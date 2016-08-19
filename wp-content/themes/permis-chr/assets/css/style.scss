@@ -1,0 +1,39 @@
+@mixin if-above($breakpoint-name) {
+	@media (min-width: $breakpoint-name) {
+		@content;
+	}
+}
+
+@mixin if-below($breakpoint-name) {
+	@media (max-width: $breakpoint-name) {
+		@content;
+	}
+}
+
+
+.section-profil { text-align: center; }
+.section-profil h1 { padding-top: 40px; font-weight: normal; }
+.section-profil .separator { height: 12px; width: 150px; background: #FADB66; margin-bottom: 60px; margin: 0 auto 60px; }
+.section-profil .profil { max-width: 600px; margin: 0 auto; font-size: 20px; }
+.section-profil .button { margin-top: 30px;}
+
+.section-engagements { text-align: center;}
+.section-engagements h1 { padding-top: 100px; font-weight: normal; }
+.section-engagements .separator { height: 12px; width: 150px; background: #FADB66; margin-bottom: 60px; margin: 0 auto 60px; }
+.section-engagements .profil { max-width: 600px; margin: 0 auto; font-size: 20px; }
+
+
+.section-nosplus { text-align: center; padding-bottom: 80px; }
+.section-nosplus h1 { padding-top: 100px; font-weight: normal; }
+.section-nosplus .separator { height: 12px; width: 150px; background: #FADB66; margin-bottom: 60px; margin: 0 auto 60px; }
+.section-nosplus .nosplus { max-width: 600px; margin: 0 auto; font-size: 20px; }
+.section-nosplus .button { margin-top: 30px; }
+
+
+@import '1-tools/-tools-index';
+@import '2-base/-base-index';
+@import '3-modules/-modules-index';
+@import '4-pages/-pages-index';
+@import '4-pages/-pages-article';
+@import '4-pages/-pages-formations';
+@import '4-pages/-pages-navigation';
