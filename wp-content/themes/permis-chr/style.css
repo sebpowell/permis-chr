@@ -255,9 +255,9 @@ header .logo { background: url(./assets/img/logo.png); background-size: 100%; wi
 @media (max-width: 800px) { .navigation-container { position: fixed; top: 0; right: -300px; height: 100vh; width: 300px; padding: 40px; z-index: 9999; background: white; box-shadow: -2px 0 4px rgba(0, 0, 0, 0.2); }
   .navigation-container.is-open { right: 0; } }
 
-.navigation-container > ul { list-style-type: none; margin: 0; padding: 0; }
+.navigation-container ul { list-style-type: none; margin: 0; padding: 0; }
 
-@media (min-width: 800px) { .navigation-container > ul > li { float: left; margin-right: 24px; } }
+@media (min-width: 800px) { .navigation-container ul > li { float: left; margin-right: 24px; } }
 
 .main-menu { padding-left: 0; }
 
