@@ -20,7 +20,7 @@
   <script src="https://use.typekit.net/mhg4tzw.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">  
+  <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
  <!--  <link rel="stylesheet" href="style.css"> -->
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -61,7 +61,7 @@
 <body>
 
 <header>
-	<a class="logo href="http://www.permis-chr.fr"></a>
+	<a class="logo" href="/"></a>
 	<div class="mobile-navigation-toggle">
 		<span></span>
 		<span></span>
